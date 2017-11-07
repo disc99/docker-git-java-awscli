@@ -1,6 +1,6 @@
 FROM docker:17.05.0-ce-git
 
-MAINTAINER diac99 <disc99.g+docker@gmail.com>
+MAINTAINER disc99 <disc99.g+docker@gmail.com>
 
 ENV JAVA_VERSION_MAJOR=8 \
     JAVA_VERSION_MINOR=131 \
