@@ -76,4 +76,4 @@ RUN set -ex && \
            /opt/jdk/jre/lib/plugin.jar \
            /tmp/* /var/cache/apk/* && \
     echo 'hosts: files mdns4_minimal [NOTFOUND=return] dns mdns4' >> /etc/nsswitch.conf && \
-    git clone https://github.com/disc99/ci-tools.git
+    git clone https://github.com/disc99/ci-tools.git ~/
